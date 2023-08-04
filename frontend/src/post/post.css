@@ -1,0 +1,44 @@
+.postInfo{
+    color:aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+.postDate{
+    color: grey;
+    font-size: small;
+ }
+
+.post{
+    margin-left: 220px;
+} 
+
+.postImg{
+    border-radius: 5px;
+    width:45%;
+    padding-left: 50px;
+}
+
+.postDesc{
+    color: rgb(128, 128, 128);
+    font-family: 'Inter', sans-serif;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical ;
+}
+
+.AuthImg{
+    height:40px;
+    width:40px;
+    border-radius: 100px;;
+}
+
+@media only screen and (min-width: 321px) and (max-width:1280px) {
+    .post{
+        margin-left: 20px;
+    } 
+
+    .postImg{
+        width:40%;
+        border-radius: 5px;
+    }
+}

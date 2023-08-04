@@ -1,0 +1,19 @@
+.posts{
+    flex:9;
+}
+
+.noPostsMessage{
+    padding-top: 200px;
+    padding-left: 650px;
+    padding-right: 650px;
+    font-family: 'Inter', serif;
+}
+
+@media only screen and (min-width: 321px) and (max-width:1280px) {
+    .noPostsMessage{
+        padding-top: 200px;
+        padding-left: 250px;
+        padding-right: 250px;
+        font-family: 'Inter', serif;
+    }
+}

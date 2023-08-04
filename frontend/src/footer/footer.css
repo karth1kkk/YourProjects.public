@@ -1,0 +1,113 @@
+.container{
+    background-color: #0a0a0a;
+    height: 220px;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.container .foot img{
+    height: 80px;
+    margin-left: 220px;
+}
+
+.container .foot h1{
+    color:aliceblue;
+    margin-top: -50px;
+    margin-left: 300px;
+}
+
+.container .foot h2{
+    color:rgb(139, 139, 139);
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: 13px;
+}
+
+.container .foot h3{
+    color:aliceblue;
+    margin-top: -83px;
+    font-size: 15px;
+    margin-left: 700px;
+}
+
+.container .foot h4{
+    color:rgb(139, 139, 139);
+    margin-top: 0px;
+    margin-left: 640px;
+    margin-right: 700px;
+    font-size: 13px;
+}
+
+.Others h2{
+    color: aliceblue;
+    margin-top: -168px;
+    margin-left: 1050px;
+}
+
+.Others h1{
+    color: rgb(139, 139, 139);
+    margin-top: 0px;
+    margin-left: 990px;
+    margin-right: 320px;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 321px) and (max-width:1280px) {
+    .container{
+        background-color: #0a0a0a;
+        height: 220px;
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    
+    .container .foot img{
+        height: 80px;
+        margin-left: 0px;
+    }
+    
+    .container .foot h1{
+        color:aliceblue;
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .container .foot h2{
+        color:rgb(139, 139, 139);
+        margin-top: 50px;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    .container .foot h3{
+        color:aliceblue;
+        margin-top: -83px;
+        font-size: 15px;
+        margin-left: 340px;
+    }
+    
+    .container .foot h4{
+        color:rgb(139, 139, 139);
+        margin-top: 0px;
+        margin-left: 280px;
+        margin-right: 280px;
+        font-size: 13px;
+    }
+  
+    .Others h2{
+        color: aliceblue;
+        margin-top: -168px;
+        margin-left: 540px;
+    }
+
+    .Others h1{
+        color: rgb(139, 139, 139);
+        margin-top: 0px;
+        margin-left: 475px;
+        margin-right: 75px;
+        font-size: 13px;
+    }
+}    
